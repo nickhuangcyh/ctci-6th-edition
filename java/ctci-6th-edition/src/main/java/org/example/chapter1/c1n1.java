@@ -22,7 +22,6 @@ import java.util.Map;
 
 public class c1n1 {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
         List<String> testStrings = new ArrayList() {{
             add("abcdefghijklmnopqrstuvwxyz");
@@ -31,11 +30,17 @@ public class c1n1 {
         for (Integer i = 0; i < testStrings.size(); i++) {
             String testString = testStrings.get(i);
             System.out.println("[Output] " + isUniqueChars(testString));
+            System.out.println("------------------------------");
+            System.out.println();
         }
     }
 
+    /*
+    time complexity :   O(n)
+    space complexity :  O(n)
+     */
     static Boolean isUniqueChars(String str) {
-        System.out.println("[Input] " + str);
+        System.out.println("isUniqueChars(" + str + ")");
 
         Map<Character, Boolean> charMap = new HashMap();
         for (int i = 0; i < str.length(); i++) {
