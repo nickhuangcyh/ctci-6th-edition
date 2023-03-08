@@ -19,10 +19,6 @@ You might find you need to know the number of spaces. Can you just count them?
 
  */
 public class c1n3 {
-    public static void main(String[] args) {
-        System.out.println(urlify("Mr John Smith ".toCharArray(), 13));
-        System.out.println(urlify("Mr Nick Huang is a man who live in Taipei".toCharArray(), 23));
-    }
 
     /*
     time complexity :   O(n)

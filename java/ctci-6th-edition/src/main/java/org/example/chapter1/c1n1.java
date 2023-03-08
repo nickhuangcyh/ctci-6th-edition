@@ -21,20 +21,6 @@ import java.util.List;
 import java.util.Map;
 
 public class c1n1 {
-    public static void main(String[] args) {
-
-        List<String> testStrings = new ArrayList() {{
-            add("abcdefghijklmnopqrstuvwxyz");
-            add("abcdeef");
-        }};
-        for (Integer i = 0; i < testStrings.size(); i++) {
-            String testString = testStrings.get(i);
-            System.out.println("[Output] " + isUniqueChars(testString));
-            System.out.println("------------------------------");
-            System.out.println();
-        }
-    }
-
     /*
     time complexity :   O(n)
     space complexity :  O(n)

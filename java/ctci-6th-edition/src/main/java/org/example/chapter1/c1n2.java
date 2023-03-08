@@ -21,34 +21,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class c1n2 {
-    public static void main(String[] args) {
-        System.out.println(isPermutation("abcde", "cbdae"));
-        System.out.println("------------------------------");
-        System.out.println();
-        System.out.println(isPermutation("abcdef", "cbdaefg"));
-        System.out.println("------------------------------");
-        System.out.println();
-        System.out.println(isPermutation("abcdefg", "cbdaef"));
-        System.out.println("------------------------------");
-        System.out.println();
-        System.out.println(isPermutation("abdef", "cbdae"));
-        System.out.println("------------------------------");
-        System.out.println();
-
-        System.out.println(isPermutation2("abcde", "cbdae"));
-        System.out.println("------------------------------");
-        System.out.println();
-        System.out.println(isPermutation2("abcdef", "cbdaefg"));
-        System.out.println("------------------------------");
-        System.out.println();
-        System.out.println(isPermutation2("abcdefg", "cbdaef"));
-        System.out.println("------------------------------");
-        System.out.println();
-        System.out.println(isPermutation2("abdef", "cbdae"));
-        System.out.println("------------------------------");
-        System.out.println();
-    }
-
     /*
     ** Using hash map to record the char count
     time complexity :   O(n+m+(m or n)) = O(3n) = O(n)

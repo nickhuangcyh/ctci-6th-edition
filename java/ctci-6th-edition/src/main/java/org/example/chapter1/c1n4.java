@@ -27,13 +27,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class c1n4 {
-    public static void main(String[] args) {
-        System.out.println(isPalindromePermutation("Tact Coa"));
-        System.out.println("------------------------------");
-        System.out.println(isPalindromePermutation("Tact Coa y"));
-        System.out.println("------------------------------");
-    }
-
     /*
     time complexity :   O(n)
     space complexity :  O(n)
