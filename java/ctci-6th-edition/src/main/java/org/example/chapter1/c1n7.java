@@ -14,6 +14,11 @@ Rotating a specific layer would just mean swapping the values in four arrays. If
  */
 
 public class c1n7 {
+
+    /*
+    time complexity :   O(n)
+    space complexity :  O(1)
+     */
     static int [][] rotateMatrix90(int [][] matrix) {
         /**
          *  [Question]

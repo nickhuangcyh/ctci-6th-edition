@@ -19,6 +19,11 @@ Can you reduce the additional space usage to 0(1) by using the matrix itself for
 
  */
 public class c1n8 {
+
+    /*
+    time complexity :   O(n)
+    space complexity :  O(n)
+     */
     static int [][] setMatrixZeros(int [][] matrix) {
         Set<Integer> zerosRows = new HashSet<>();
         Set<Integer>  zerosColumns = new HashSet<>();
